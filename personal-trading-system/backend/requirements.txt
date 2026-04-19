@@ -1,0 +1,36 @@
+# 核心依赖
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# 交易相关
+ccxt==4.1.43
+pandas==2.1.4
+numpy==1.26.2
+ta-lib==0.4.28  # 技术指标库
+
+# 安全加密
+cryptography==41.0.7
+pyjwt==2.8.0
+
+# 数据库
+sqlalchemy==2.0.23
+alembic==1.13.0
+
+# 任务调度
+schedule==1.2.0
+apscheduler==3.10.4
+
+# 网络请求
+httpx==0.25.1
+websockets==12.0
+
+# 配置管理
+pydantic-settings==2.1.0
+pyyaml==6.0.1
+
+# 日志
+loguru==0.7.2
+
+# 开发工具
+python-dotenv==1.0.0
